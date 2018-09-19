@@ -14,7 +14,6 @@ public class Pen {
         this(inkContainerValue);
         this.sizeLetter = sizeLetter;
     }
-
     public Pen(int inkContainerValue, double sizeLetter, String color) {
         this(inkContainerValue,sizeLetter);
         this.color = color;
